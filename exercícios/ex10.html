@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>Exercício 10</h1>
+        <p id="mensagem"></p>
+       
+        <script>
+            let pessoa = {
+                nome: prompt("Digite seu nome: "),
+                idade: prompt("Digite sua idade: "),
+                cidade: prompt("Digite sua cidade: ")
+            }
+
+            document.getElementById ('mensagem').innerHTML += `Nome:${pessoa.nome}<br> Idade:${pessoa.idade}<br> Cidade: ${pessoa.cidade}`
+        </script>
+</body>
+</html>
